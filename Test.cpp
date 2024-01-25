@@ -1,3 +1,4 @@
+#include <iostream>
 
 char get_symbol(const int code) {
     return code < 10 ? (0x30 + code) : ('A' + code - 10);
